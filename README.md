@@ -290,6 +290,10 @@ git push origin develop
 | 시연                | 2026-05-08              | 오후 13:00 ~ 14:30 |
 | 과제 제출           | 2026-05-08              | 오후 14:30 ~ 18:30 |
 
+### 발표문서 업로드
+- 팀별 폴더안에 "팀명_발표문서" 형식으로 작성해서 마크다운 문서안에 URL 저장 (예시 : Sky_발표문서.md) 또는 발표문서 자체를 폴더안에 업로드 (예시 : Sky_발표문서.pptx)
+- [[구글드라이브 링크]](https://drive.google.com/drive/folders/1VYzRG8JDEigIj2e79X_UcDf6fydwcTEC?usp=share_link) 
+
 ### 폴리싱(2026-05-04 ~ 2026-05-07)
 
 - 버그 수정 및 최적화
