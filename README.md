@@ -337,3 +337,9 @@ git push origin develop
 |     5     | 세얼간이   | 겐지스강      | 권정오 | 권정오, 곽시열, 최정환 | [발표자료](https://www.canva.com/design/DAHI9UumNxc/zdTqIgnbvmibY_Tiz3a5Aw/edit) |
 |     6     | Sky        | KO            | 윤창현 | 윤창현, 김정환, 서연석 | [발표자료](https://canva.link/0wx8vbylrcuwvnc)                                   |
 |     7     | JTJCompany | TypeUnknown   | 정근혁 | 박민준, 김태현, 정근혁 | [발표자료](https://canva.link/x6xtiicjditvicy)                                   |
+
+### 개발 후기 작성
+
+### 자리 재배치
+
+### 발표자료 업로드(제출)
