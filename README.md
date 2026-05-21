@@ -89,6 +89,16 @@ namespace 프로젝트명.Utils
         }
     }
 }
+
+// 사용 예시
+using Logger = 프로젝트명.Utils.Logger;
+
+private void Start()
+{
+    Logger.Log("게임이 시작되었습니다.");
+    Logger.LogWarning("적의 체력이 낮습니다.");
+    Logger.LogError("플레이어가 사망했습니다.");
+}
 ```
 
 ---
