@@ -33,6 +33,64 @@
 - 발표 시간 : 발표자별 10분 (발표 7분 + 질의응답 3분)
 - 발표 문서 : 공유 구글드라이브 (전공2-프로젝트/기획발표자료) [URL](https://drive.google.com/drive/folders/1ZVI3Qfgk40jo4mIAC6pizi9X48UNYlxz)
 
+## 전공 2 - 프로젝트 팀
+
+|  NO   | 팀명 | 프로젝트명 | 팀장   | 팀원                   |
+| :---: | ---- | ---------- | ------ | ---------------------- |
+|   1   |      |            | 권정오 | 윤창현,서연석          |
+|   2   |      |            | 최정환 | 최정환                 |
+|   3   |      |            | 곽시열 | 김태형,김원정          |
+|   4   |      |            | 윤상화 | 이나영,진정환,정근혁   |
+|   5   |      |            | 오성영 | 김태현, 김정환, 박민준 |
+|   6   |      |            | 조예은 | 최재빈, 황인용         |
+
+## Debug.Log 활용 가이드
+
+- NameSpace 활용
+  - Player
+  - Enemy
+  - UI
+  - System
+  - Core
+
+```cs
+namespace SpaceMan.Player{}
+namespace SpaceMan.Enemy{}
+namespace SpaceMan.UI{}
+namespace SpaceMan.System{}
+namespace SpaceMan.Core{}
+```
+
+```cs
+using System.Diagnostics;
+using UnityEngine;
+using Debug = UnityEngine.Debug;
+
+namespace 프로젝트명.Utils
+{
+    public static class Logger
+    {
+        [Conditional("UNITY_EDITOR")]
+        public static void Log(string message)
+        {
+            Debug.Log($"<color=green> [정보] </color> <color=white>{message}</color>");
+        }
+
+        [Conditional("UNITY_EDITOR")]
+        public static void LogWarning(string message)
+        {
+            Debug.Log($"<color=yellow> [경고] </color> <color=white>{message}</color>");
+        }
+
+        [Conditional("UNITY_EDITOR")]
+        public static void LogError(string message)
+        {
+            Debug.Log($"<color=red> [오류] </color> <color=white>{message}</color>");
+        }
+    }
+}
+```
+
 ---
 
 ### 전공 1 물리역학 기반 유니티 프로젝트 (2026.04.13 ~ 2026.05.08)
