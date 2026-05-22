@@ -45,6 +45,13 @@
 |   5   |              |                           | 오성영 | 김태현, 김정환, 박민준 |
 |   6   |              |                           | 조예은 | 최재빈, 황인용, 정해륜 |
 
+### 프로젝트 설계문서
+
+1. 게임 플로우 (Lucidchart)
+2. 콘티 - Screen Design (ppt, Canva, Figma 등)
+3. 와이어프레임 (UI Design)
+4. 기능 명세서 (excel)
+
 ## Debug.Log 활용 가이드
 
 - NameSpace 활용
